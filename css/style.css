@@ -7,3 +7,56 @@
 --black: #333333;
 
 }
+
+
+/* background */
+
+header, .foot-top{
+    background-color: var(--light-gray);
+}
+
+#hero, #about{
+    background-color: var(--aqua);
+    color: var(--white);
+}
+
+#portfolio, #contact{
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.foot-bot{
+    background-color: var(--dark-gray);
+}
+
+
+
+/* padding-margin */
+.px-0{
+    padding: 0 10px;
+}
+
+
+
+
+/* text */
+
+.inve-filter{
+    filter: invert(1);
+}
+
+.small-ico{
+    width: 1.2em;
+    height: 1.3em;
+    
+}
+
+
+.font700{
+    font-weight: 700;
+}
+
+
+.fsize{
+    font-size: medium;
+}
