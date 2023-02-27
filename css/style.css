@@ -31,6 +31,8 @@ header, .foot-top{
 
 
 
+
+
 /* padding-margin */
 .px-0{
     padding: 0 10px;
@@ -99,6 +101,12 @@ header, .foot-top{
 .fsize{
     font-size: 1rem;
 }
+
+.foot-top, .foot-bot{
+    color: var(--white);
+    text-align: center;
+}
+
 
 /* utility */
 
