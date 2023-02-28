@@ -38,6 +38,9 @@ header, .foot-top{
 
 
 /* padding-margin */
+
+
+
 .px-0{
     padding: 0 10px;
 }
@@ -120,6 +123,10 @@ header, .foot-top{
 
 
 
+
+
+
+
 /* utility */
 
 .debug{
@@ -131,6 +138,7 @@ header, .foot-top{
 
 .layover{
     position: relative;
+    cursor: pointer;
 }
 
 .layover:after{
@@ -147,7 +155,12 @@ header, .foot-top{
     background-color: #29b498ad;
     border-radius: 8px;
     color: var(--white);
-    
-
-
+    opacity: 0;
 }
+
+
+.c-hover:hover .layover:after{
+    opacity: 1;
+}
+
+
